@@ -27,7 +27,7 @@ Esse tutorial tem como objetivo usar os recursos de machine learning automatizad
 
 2 - Clique na opção "mais serviços" em seguida você será levada para a página da imagem abaixo e irá clicar em **Azure Machine Learning** em seguida clique em "➕ Criar" e crie um Workspace. 
 
-![Azure Machine Learning](image.png)
+![Azure Machine Learning](assets/image.png)
 
 3 - Em seguida preencha o que é pedido (Caso não tenha um grupo de recursos clique em "criar novo"), após clique em "Examinar + Criar" e após a Validação aprovada clique em "Criar"(isso pode demorar alguns minutos).
     
@@ -56,7 +56,7 @@ Esse tutorial tem como objetivo usar os recursos de machine learning automatizad
 **Exemplo:**
 <b><p style="color:DodgerBlue;">Você pode preencher como quiser. Abaixo é apenas um Exemplo.</p></b>
 <b><p style="color:Red;">Configuração feita:</p></b>
-![Campos Preenchidos](image-2.png)
+![Campos Preenchidos](assets/image-2.png)
 
 4 - Clique ir para recurso, selecione "iniciar o estúdio" (Caso contrário, selecione Todos os workspaces no menu à esquerda e selecione o workspace que você acabou de criar).
 
@@ -65,7 +65,7 @@ Esse tutorial tem como objetivo usar os recursos de machine learning automatizad
 
 1 - No estúdio do Azure Machine Learning, veja a página ML Automatizado.
 
-![ML-auto](image-3.png)
+![ML-auto](assets/image-3.png)
 
 2 - Crie um novo trabalho de ML automatizado com as seguintes configurações, usando Avançar conforme necessário para avançar dentro da interface do usuário:
 
@@ -121,7 +121,7 @@ Esse tutorial tem como objetivo usar os recursos de machine learning automatizad
 
 3 - Após aparecer que foi concluído com êxito, selecione o tipo de tarefa e selecione o conjunto de dados criado e avance.
 
-![alt text](image-4.png)
+![alt text](assets/image-4.png)
 
 <details>
     <summary>Configurações da tarefa</summary>
@@ -156,8 +156,8 @@ Esse tutorial tem como objetivo usar os recursos de machine learning automatizad
             • Percentual de dados de validação: 10
             • Conjunto de dados de teste: nenhum
 
-![Configurações Adicionais](image-7.png)
-![Limites](image-8.png)
+![Configurações Adicionais](assets/image-7.png)
+![Limites](assets/image-8.png)
 
 </details>ㅤ
 
@@ -171,7 +171,7 @@ Esse tutorial tem como objetivo usar os recursos de machine learning automatizad
     Tamanho da máquina virtual: Standard_DS3_V2*
     Número de instâncias: 1
 
-![Computação](image-9.png)
+![Computação](assets/image-9.png)
 </details>ㅤ
 
 4 - Envie o trabalho de treinamento. Ele é iniciado automaticamente.
@@ -183,11 +183,11 @@ Esse tutorial tem como objetivo usar os recursos de machine learning automatizad
 
 1 - Na guia **visão geral** vá até o resumo do melhor modelo e clique.
 
-![Melhor Modelo](image-10.png)
+![Melhor Modelo](assets/image-10.png)
 
 2 - Vá até a guia **Métricas** e selecione os gráficos residuais e predicted_true
 
-![Métricas](image-11.png)
+![Métricas](assets/image-11.png)
 
     Examine os gráficos que mostram o desempenho do modelo. O gráfico de resíduos mostra os resíduos (as diferenças entre valores previstos e reais) como um histograma. O gráfico predicted_true compara os valores previstos com os valores verdadeiros.
 
@@ -218,11 +218,11 @@ Na página do ponto de extremidade em tempo real de previsão de aluguel, exiba 
 
 No painel Dados de entrada para testar o ponto de extremidade, substitua o modelo JSON pelos seus dados de entrada:
 
-![alt text](image-12.png)
+![alt text](assets/image-12.png)
 
 4 - Em seguida clique **testar** e o **resultado do teste** aparecerá ao lado.
 
-![alt text](image-14.png)
+![alt text](assets/image-14.png)
 
 5 - Revise os resultados do teste, que incluem um número previsto de aluguéis com base nos recursos de entrada
 
